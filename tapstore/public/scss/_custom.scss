@@ -1,0 +1,88 @@
+
+.titleBack {
+  background: $primary-color;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-bottom: 1em;
+  border-bottom: thin solid $secondary-color;
+}
+.loginBacground {
+  background: lighten($primary-color, 20%);
+  padding: 2em 0 2em 0;
+  margin: 0;
+  border-bottom: thin solid $secondary-color;
+  border-top: thin solid $secondary-color;
+}
+
+.title {
+  @extend .noMargin;
+  @media #{$small-only} {
+    font-size: 1.3em;
+  }
+  @media #{$medium-only} {
+    font-size: 1.8em;
+  }
+  @media #{$large-up} {
+    font-size: 2em;
+  }
+}
+
+.noMargin {
+  margin: 0;
+}
+.noPadding {
+  padding: 0;
+}
+
+.loginMsg {
+  @extend .text-center;
+  color: $primary-color;
+  font-weight: lighter;
+}
+.topMargin {
+  @media #{$small-only} {
+    margin-top: 1.6em;
+  }
+  @media #{$medium-only} {
+    margin-top: 3em;
+  }
+  @media #{$large-up} {
+    margin-top: 4em;
+  }
+
+}
+
+.contentList {
+  background: $white;
+  padding-top: $block-grid-default-spacing;
+  p {
+    color: $primary-color;
+    margin-bottom: 0;
+  }
+  a {
+    color: $primary-color;
+
+  }
+  a:hover {
+    color: scale-color($primary-color, $lightness: -14%);;
+  }
+}
+
+.mainImage {
+
+}
+.bigText {
+  margin: 0;
+  @media #{$small-only} {
+    font-size: 3em;
+  }
+  @media #{$medium-only} {
+    font-size: 4em;
+  }
+  @media #{$large-up} {
+    font-size: 5em;
+  }
+}
+
+
+

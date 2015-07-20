@@ -1,0 +1,31 @@
+# OS specific trash
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea
+Icon
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+# Ignore any personal todo files (if anyone needs it)
+TODO
+
+
+# Build/test outputs
+phpunit.out
+build/code-coverage
+
+
+# Composer installation
+/coverage/
+composer.phar
+
+
+# Project specific
+/vendor/*
+/views
+/tmp
