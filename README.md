@@ -1,6 +1,6 @@
 # Mobile Connect example apps (PHP SDK)
 
-**WARING: *This code is just a quick example how to get started with Mobile Connect PHP SDK it should not be cosider to describe best practices.***
+**WARING: *This code is just a quick example how to get started with Mobile Connect PHP SDK it should not be cosidered to describe best practices.***
 
 ## Introduction
 This repo includes source code for Tapstore and Yolo Mobile Connect demo apps. This example is supplementary and does not replace documentation at the Mobile Connect developer portal.
