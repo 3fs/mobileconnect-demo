@@ -36,7 +36,7 @@ Possible points of interest:
 	handles requests
 
 - ```<app directory>/app/routes.php``` 
-	list of possible routs
+	list of possible routes
 
 - ```<app directory>/bootstrap/start.php```
 	sets up etalio signleton which is used in controller
