@@ -1,14 +1,14 @@
 # Mobile Connect example apps (PHP SDK)
 
-**WARING: *This code is just a quick example how to get started with Mobile Connect PHP SDK it should not be cosidered to describe best practices.***
+**WARING: *This code is just a quick example how to get started with Mobile Connect PHP SDK it should not be considered to describe best practices.***
 
 ## Introduction
 This repo includes source code for Tapstore and Yolo Mobile Connect demo apps. This example is supplementary and does not replace documentation at the Mobile Connect developer portal.
 
 ## Repo Structure
-In root directory there are ```yolo/``` and ```tapstore/``` directories each containing stanalone app. (In future those directories will be referenced to as ```<app directory>```)
+In root directory there are ```yolo/``` and ```tapstore/``` directories each containing standalone app. (In future those directories will be referenced to as ```<app directory>```)
 
-Inside app direcotry there is Laravel application, directory structure is standard for Laravel apps. Please cunsult [Laravel documentation](http://laravel.com/docs/5.1) for details. Frontend is using Foundation.
+Inside app directory there is Laravel application, directory structure is standard for Laravel apps. Please consult [Laravel documentation](http://laravel.com/docs/5.1) for details. Frontend is using Foundation.
 
 ### Getting set up
 Run following in app directory to get app ready (requires composer and bower):
@@ -39,4 +39,4 @@ Possible points of interest:
 	list of possible routes
 
 - ```<app directory>/bootstrap/start.php```
-	sets up etalio signleton which is used in controller
+	sets up ```etalio``` singleton which is used in controller
